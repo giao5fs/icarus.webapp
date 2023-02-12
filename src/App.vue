@@ -40,10 +40,10 @@ export default {
           <label for="lastname">Last name:</label>
           <input type="text" class="form-control" id="lastname" v-model="form.lastname">
         </div>
-        <!-- <div class="form-group">
+        <div class="form-group">
           <label for="password">Password:</label>
           <input type="password" class="form-control" id="password" v-model="form.password">
-        </div> -->
+        </div>
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
     </div>
